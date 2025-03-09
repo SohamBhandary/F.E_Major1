@@ -5,12 +5,24 @@
     padding: 0;
     color: white;
     font-family: "plain Light";
+    
   }
   
   body,html {
    
     height : 100%;
     width: 100%;
+  }
+  #crsr{
+    height: 2.5vw;
+    width:2.3vw;
+    border-radius: 50%;
+    /* background-color: white; */
+    border: 4px solid #ffffff7d;
+    position: fixed;
+    z-index: 999;
+    transform: translate((-50%,-50%));
+   
   }
   #loader{
     height: 100%;
@@ -108,3 +120,69 @@
     background-color: #151515;
 
   }
+  #page1 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.3vw 4.5vw;
+  }
+  #nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+  }
+
+  #nav-part2 h4{
+    font-size: 0.8vw;
+    font-weight: 500;
+  }
+  .hero{
+
+    
+    width: 72%;
+    margin-left: 27%;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+  }
+
+  .hero:nth-child(2){
+    margin-top: 18vh;
+  }
+  .hero h1{
+    font-size: 7.2vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 7vw;
+  }
+  .hero h2{
+    font-size: 7.2vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 7vw;
+  }
+  .hero h3{
+    font-size: 7.2vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 7vw;
+  }
+  #hero3.hero h1:nth-of-type(1):hover {
+    -webkit-text-stroke: 1px #fff;
+    font-weight: 500;
+    color: transparent;
+  }
+  
+  #hero3.hero h1:nth-of-type(2):hover {
+    -webkit-text-stroke: 1px #fff;
+    font-weight: 500;
+    color: transparent;
+  }
+  
+  
+  
+  
